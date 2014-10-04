@@ -1,0 +1,835 @@
+/*
+    Site's basic Colors and body     Site's basic Colors and body     Site's basic Colors and body     Site's basic Colors and body
+    Site's basic Colors and body     Site's basic Colors and body     Site's basic Colors and body     Site's basic Colors and body
+    Site's basic Colors and body     Site's basic Colors and body     Site's basic Colors and body     Site's basic Colors and body
+    Site's basic Colors and body     Site's basic Colors and body     Site's basic Colors and body     Site's basic Colors and body
+*/
+body
+{
+    position: relative;
+    background-color: white;
+    font-family:'Lato', sans-serif;
+    color: #585858;
+    font-size: 14px;
+}
+
+.primary1
+{
+    color: #5577ff;
+}
+
+.bg-primary1
+{
+    color: #5577ff;
+}
+
+.primary2
+{
+    color: #4466aa;
+}
+
+.bg-primary2
+{
+    color: #4466aa;
+}
+
+
+
+/*
+   Buttons Csss          Buttons Csss          Buttons Csss          Buttons Csss          Buttons Csss          Buttons Csss
+   Buttons Csss          Buttons Csss          Buttons Csss          Buttons Csss          Buttons Csss          Buttons Csss
+   Buttons Csss          Buttons Csss          Buttons Csss          Buttons Csss          Buttons Csss          Buttons Csss
+   Buttons Csss          Buttons Csss          Buttons Csss          Buttons Csss          Buttons Csss          Buttons Csss
+*/
+.btnTheme1
+{
+    border-radius: 0px;
+    background-color: #ffffff;
+    color: #4466aa;
+    
+    -webkit-transition: color 400ms;-moz-transition: color 400ms;-ms-transition: color 400ms;-o-transition: color 400ms;transition: color 400ms;
+    -webkit-transition: background-color 600ms;-moz-transition: background-color 600ms;-ms-transition: background-color 600ms;-o-transition: background-color 600ms;transition: background-color 600ms;
+}
+
+.btnTheme1:hover
+{
+    color: #ffffff;
+    background-color: #4466aa;
+}
+
+
+.btnTheme2
+{
+    color: #ffffff;
+    background-color: #5577ff;
+    -webkit-transition: color 400ms;-moz-transition: color 400ms;-ms-transition: color 400ms;-o-transition: color 400ms;transition: color 400ms;
+    -webkit-transition: background-color 600ms;-moz-transition: background-color 600ms;-ms-transition: background-color 600ms;-o-transition: background-color 600ms;transition: background-color 600ms;
+}
+
+.btnTheme2:hover
+{
+    color: #ffffff;
+    background-color: #4466aa;
+}
+
+
+
+/*
+   Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss
+   Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss
+   Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss
+   Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss
+*/
+
+
+/*
+   MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss
+   MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss
+   MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss
+   MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss
+*/
+
+
+/*
+   NavBar Csss          NavBar Csss          NavBar Csss          NavBar Csss          NavBar Csss          NavBar Csss
+   NavBar Csss          NavBar Csss          NavBar Csss          NavBar Csss          NavBar Csss          NavBar Csss
+   NavBar Csss          NavBar Csss          NavBar Csss          NavBar Csss          NavBar Csss          NavBar Csss
+   NavBar Csss          NavBar Csss          NavBar Csss          NavBar Csss          NavBar Csss          NavBar Csss
+*/
+
+
+
+/*
+   Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss
+   Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss
+   Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss
+   Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss
+*/
+
+
+
+
+/*
+   About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss
+   About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss
+   About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss
+   About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss
+*/
+
+
+
+/*
+   Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss
+   Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss
+   Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss
+   Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss          Our Services (3rd Section) Csss
+*/
+
+
+#serviceContainer .item
+{
+    margin: auto;
+    padding: 2px;
+    background-color: #ffffff;
+    border: 1px solid #4466aa;
+    position: relative;
+}
+
+#serviceContainer .item  .item-child
+{
+    padding: 10px;
+    background-color: #5577ff;
+    color: white;
+    -webkit-transition: background-color 1000ms;-moz-transition: background-color 1000ms;-ms-transition: background-color 1000ms;-o-transition: background-color 1000ms;transition: background-color 1000ms;
+}
+
+
+#serviceContainer .item:hover .item-child
+{
+    background-color:#4466aa;
+}
+
+
+#serviceContainer .item .item-illustrator
+{
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    color: #5577ff;
+    border: 2px solid #4466aa;
+    position: absolute;
+    border-radius: 50px;
+    text-align: center;
+    display: table;
+    top:-30px;
+    left: -5px;
+    z-index: 1;
+    
+    -webkit-transition: height 500ms;-moz-transition: height 500ms;-ms-transition: height 500ms;-o-transition: height 500ms;transition: height 500ms;
+    -webkit-transition: width 500ms;-moz-transition: width 500ms;-ms-transition: width 500ms;-o-transition: width 500ms;transition: width 500ms;
+    -webkit-transition: border-radius 500ms;-moz-transition: border-radius 500ms;-ms-transition: border-radius 500ms;-o-transition: border-radius 500ms;transition: border-radius 500ms;
+    -webkit-transition: top 500ms;-moz-transition: top 500ms;-ms-transition: top 500ms;-o-transition: top 500ms;transition: top 500ms;
+    -webkit-transition: left 500ms;-moz-transition: left 500ms;-ms-transition: left 500ms;-o-transition: left 500ms;transition: left 500ms;
+
+}
+
+#serviceContainer .item:hover .item-illustrator {
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    top: -35px;
+    left: -20px;
+    color:#4466aa;
+}
+
+
+#serviceContainer .item .item-illustrator .fa
+{
+    display: table-cell;
+    vertical-align:middle;
+    font-size: 2em;
+    -webkit-transition: font-size 500ms;-moz-transition: font-size 500ms;-ms-transition: font-size 500ms;-o-transition: font-size 500ms;transition: font-size 500ms;
+}
+
+#serviceContainer .item:hover .item-illustrator .fa {
+    font-size: 3em;
+}
+
+#serviceContainer .item .item-title
+{
+   margin-top: 10px;
+   font-size: 18px;
+   font-weight: bold;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+
+#serviceContainer .item .item-sub-title
+{
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+#serviceContainer .item .item-seperator
+{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    height: 5px;
+}
+
+#serviceContainer .item .item-description
+{
+    text-align: center;
+}
+
+#serviceContainer .item .btn-container
+{
+    text-align: center;
+}
+
+#serviceContainer .btnTheme1:hover
+{
+    text-decoration: underline;
+}
+
+/*
+   Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss
+   Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss
+   Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss
+   Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss          Company history (4th Section) Csss
+*/
+
+
+
+#ourHistory .item-service
+{
+    margin: auto;
+    padding: 2px;
+    background-color: #ffffff;
+    position: relative;
+    margin-bottom: 40px;
+    opacity: 0.1;
+    top : 200px;
+
+}
+
+#ourHistory .item-service:hover
+{
+    color: #4466aa;
+}
+
+
+#ourHistory .item-service.left:hover .rightBorder
+{
+    border-color: #4466aa;
+}
+
+#ourHistory .item-service.right:hover .leftBorder
+{
+    border-color: #4466aa;
+}
+
+
+#ourHistory .btnHistory
+{
+    position: relative;
+    text-align: right;
+}
+
+#ourHistory .btnHistory .faHistoryDown
+{
+    position: absolute;
+    bottom: -23px;
+    left: 44%;
+}
+
+
+#ourHistory .btnHistory .faHistoryLeft
+{
+    position: absolute;
+    left: -11px;
+    top: -11%;
+}
+
+
+#ourHistory .btnHistory .faHistoryRight
+{
+    position: absolute;
+    right: -11px;
+    top: -11%;
+}
+
+#ourHistory .btnHistory .fa
+{
+    color: #5577ff;
+    -webkit-transition: color 400ms;-moz-transition: color 400ms;-ms-transition: color 400ms;-o-transition: color 400ms;transition: color 400ms;
+}
+
+#ourHistory .btnHistory:hover .fa
+{
+    color: #4466aa;
+}
+
+
+#ourHistory .item-service.left .item-title
+{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+    text-align: right;
+
+}
+
+
+#ourHistory .item-service.left .item-sub-title
+{
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 15px;
+
+    text-align: right;
+}
+
+
+
+#ourHistory .item-service.right .item-title
+{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+    text-align: left;
+
+}
+
+
+
+
+
+
+#ourHistory .item-service.right .item-sub-title
+{
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 15px;
+
+    text-align: left;
+}
+
+#ourHistory .item .item-seperator
+{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #4466aa;
+    height: 5px;
+}
+
+#ourHistory .item-service.left .item-description
+{
+    text-align: right;
+}
+
+#ourHistory .item-service.left .btn-container
+{
+    text-align: right;
+}
+
+#ourHistory .item-service .rightBorder
+{
+    border-right: 1px solid #585858;
+    padding-right: 30px;
+}
+
+
+#ourHistory .item-service .leftBorder
+{
+    border-left: 1px solid #585858;
+    padding-left: 30px;
+}
+
+
+#ourHistory .item-service.left .item-illustrator .upper-circle
+{
+    position: absolute;
+    right: -7px;
+    top: -15px;
+}
+
+#ourHistory .item-service.left .item-illustrator .lower-circle
+{
+    position: absolute;
+    right: -7px;
+    bottom: -15px;
+}
+
+#ourHistory .item-service.left .item-illustrator .middle-check
+{
+    text-align: center;
+    position: absolute;
+    right: -22.5px;
+    top:45%;
+    padding: 0px 0px;
+    background-color: #ffffff;
+}
+
+
+
+#ourHistory .item-service.right .item-illustrator .upper-circle
+{
+    position: absolute;
+    left: -7px;
+    top: -15px;
+}
+
+#ourHistory .item-service.right .item-illustrator .lower-circle
+{
+    position: absolute;
+    left: -7px;
+    bottom: -15px;
+}
+
+#ourHistory .item-service.right .item-illustrator .middle-check
+{
+    text-align: center;
+    position: absolute;
+    left: -19.5px;
+    top:45%;
+    padding: 0px 0px;
+    background-color: #ffffff;
+}
+
+
+
+#ourHistory .item-service.left .btnDateShower
+{
+    left: 35px;
+    position: absolute;
+    top: 96px;
+}
+
+
+#ourHistory .item-service.right .btnDateShower
+{
+    right: 35px;
+    position: absolute;
+    top: 96px;
+}
+
+
+/*
+   Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss
+   Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss
+   Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss
+   Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss
+*/
+
+
+/*
+   The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss
+   The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss
+   The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss
+   The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss          The Blog (6th Section) Csss
+*/
+
+
+/*
+   price table Csss          price table Csss          price table Csss          price table Csss          price table Csss          price table Csss
+   price table Csss          price table Csss          price table Csss          price table Csss          price table Csss          price table Csss
+   price table Csss          price table Csss          price table Csss          price table Csss          price table Csss          price table Csss
+   price table Csss          price table Csss          price table Csss          price table Csss          price table Csss          price table Csss
+*/
+
+#priceTable .item
+{
+  border: 1px solid #5577ff;
+  top:50px;
+    /*-webkit-transform: rotateX(20deg) rotateY(40deg) rotateZ(0deg);*/
+
+  -webkit-transform:rotateX(0deg) rotateY(-90deg) rotateZ(0deg)
+
+}
+
+#priceTable .item:hover
+{
+    border: 1px solid #4466aa;
+}
+
+#priceTable .item .item-title-box
+{
+    background-color : #5577ff;
+    color: #ffffff;
+    -webkit-transition: background-color 600ms;-moz-transition: background-color 600ms;-ms-transition: background-color 600ms;-o-transition: background-color 600ms;transition: background-color 600ms;
+    padding:15px;
+    padding-bottom: 30px;
+
+}
+
+
+#priceTable .item:hover .item-title-box
+{
+    background-color : #4466aa;
+}
+
+#priceTable .item .item-title-box .item-title
+{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#priceTable .item .item-description-box
+{
+    padding:10px;
+    padding-top: 35px;
+    position: relative;
+}
+
+#priceTable .item .item-description-box  .item-description
+{
+    border-bottom: 1px solid #585858;
+    text-align: center;
+    padding-bottom:5px ;
+    text-transform: uppercase;
+
+    -webkit-transition: border-bottom 400ms;-moz-transition: border-bottom 400ms;-ms-transition: border-bottom 400ms;-o-transition: border-bottom 400ms;transition: border-bottom 400ms;
+    -webkit-transition: color 400ms;-moz-transition: color 400ms;-ms-transition: color 400ms;-o-transition: color 400ms;transition: color 400ms;
+}
+
+#priceTable .item .item-description-box  .item-description:last-of-type
+{
+    margin-bottom: 35px;
+}
+
+#priceTable .item .item-description-box  .btn-container
+{
+    text-align: center;
+    bottom: -15px;
+    position: absolute;
+    left: 25%;
+    text-transform: capitalize;
+}
+
+
+#priceTable .item .item-description-box  .item-illustrator
+{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: #5577ff;
+    border: 2px solid #f4f4f4;
+    color: #ffffff;
+    text-align: center;
+    display: table;
+    border-radius: 50%;
+    left: 33%;
+    top:-15%;
+
+    -webkit-transition: background-color 600ms;-moz-transition: background-color 600ms;-ms-transition: background-color 600ms;-o-transition: background-color 600ms;transition: background-color 600ms;
+
+
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(58, 58, 58, 0.3); /* WebKit */
+    -moz-box-shadow: 1px 1px 1px 1px rgba(58, 58, 58, 0.3); /* Firefox */
+    box-shadow: 1px 1px 1px 1px rgba(58, 58, 58, 0.3); /* Standard */
+}
+
+#priceTable .item:hover .item-description-box  .item-illustrator
+{
+    background-color: #ef2007;
+}
+
+#priceTable .item:hover .item-description-box .item-description
+{
+    color: #4466aa;
+    border-bottom: 1px solid #4466aa;
+}
+
+#priceTable .item .item-description-box  .item-illustrator p
+{
+    display: table-cell;
+    padding: 15px;
+    font-size: 18px;
+}
+
+
+
+/*
+   Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss
+   Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss
+   Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss
+   Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss          Our team (7th Section) Csss
+*/
+
+
+#ourTeam .item
+{
+    border: 1px solid #5577ff;
+    position: relative;
+    margin-bottom: 20px;
+    opacity: 0;
+}
+
+#ourTeam .item.item-group-1
+{
+   left: -80%;
+}
+
+#ourTeam .item.item-group-2
+{
+   margin-top: 100%;
+}
+
+#ourTeam .item.item-group-3
+{
+    right: -80%;
+}
+
+
+
+#ourTeam .item:hover
+{
+    border: 1px solid #4466aa;
+}
+
+#ourTeam .item .item-title-box
+{
+    background-color : #5577ff;
+    color: #ffffff;
+    padding:15px;
+    z-index: 1;
+}
+
+
+#ourTeam .item .item-title-box .item-title
+{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+#ourTeam .item .item-description-box
+{
+    padding:15px;
+    background-color: #4466aa;
+    z-index: 1;
+}
+
+#ourTeam .item .item-description-box  .item-description
+{
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+#ourTeam .item .item-image-box
+{
+    overflow: hidden;
+    height: 180px;
+    position: relative;
+}
+
+#ourTeam .item .item-image-box .item-illustrator
+{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top:0px;
+   left:0px;
+   background-color: rgba(0,0,0,0.3);
+}
+
+#ourTeam .item .item-btn-container
+{
+  background-color: #ffffff;
+  z-index: -100;
+  width: 100%;
+  border: 1px solid #4466aa;
+  bottom:0px;
+}
+
+
+#ourTeam .item .item-btn-container.temporary
+{
+    position: absolute;
+}
+
+
+#ourTeam .item .item-btn-container.permanant
+{
+    position: static;
+}
+
+
+#ourTeam .item .item-btn-container .btn
+{
+  display: block;
+  margin: 10px;
+}
+
+#ourTeam .item .item-btn-container a iframe
+{
+   opacity: 0;
+}
+
+#ourTeam .popover
+{
+    border-radius: 0;
+    margin-top: 30px;
+}
+
+#ourTeam .popover .popover-title
+{
+    background-color: #5577FF;
+    color: white;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+#ourTeam .popover .popover-content
+{
+    border-radius: 0;
+    background-color: #f4f4f4;
+}
+
+
+/*
+   Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss
+   Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss
+   Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss
+   Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss          Client Testimonials (8th section) Csss
+*/
+
+
+/*
+   Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss
+   Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss
+   Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss
+   Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss          Contact Us (9th section) Csss
+*/
+
+
+/*
+   Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss
+   Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss
+   Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss
+   Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss
+*/
+
+#examples-parallax {
+    padding-top: 200px;
+    height: 800px;
+    margin-bottom: -600px;
+    overflow: hidden;
+}
+
+
+#parallax-it {
+    padding: 0;
+    font-size: 80px;
+    position: relative;
+
+    height: 100%;
+    background-color: red;
+}
+
+#parallax-it-left {
+    position: relative;
+    font-size: 120px;
+    left: -160px;
+    color: #C5C3DE;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter: alpha(opacity=5);
+    overflow: hidden;
+
+    height: 100%;
+
+    background-color: #000000;
+}
+
+
+#parallax-it-right {
+    position: relative;
+    font-size: 160px;
+    left: 80px;
+    color: #C5C3DE;
+    opacity: 0.25;
+    -moz-opacity: 0.25;
+    filter: alpha(opacity=2.5);
+    overflow: hidden;
+    width: 900px;
+
+    height: 100%;
+    background-color: aqua;
+}
+
+
+h2 {
+    font-size: 150px;
+    font-weight: normal;
+    margin: 0;
+    color: #FFB000;
+    padding: 60px;
+    text-shadow: 0 2px 1px #000;
+    font-family: 'Luckiest Guy',Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,Gadget,sans-serif;
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,113 @@
+@media(max-width:449px){
+
+    .colXS1
+    {
+        width : 8.33%;
+    }
+
+    .colXS2
+    {
+        width : 16.66%;
+    }
+
+    .colXS3
+    {
+        width : 25%;
+    }
+
+    .colXS4
+    {
+        width : 33.33%;
+    }
+
+    .colXS5
+    {
+        width : 41.66%;
+    }
+
+    .colXS6
+    {
+        width : 50%;
+    }
+
+    .colXS7
+    {
+        width : 58.33%;
+    }
+
+    .colXS8
+    {
+        width : 66.66%;
+    }
+
+    .colXS9
+    {
+        width : 75%;
+    }
+
+    .colXS10
+    {
+        width : 83.33%;
+    }
+
+    .colXS11
+    {
+        width : 91.66%;
+    }
+
+    .colXS12
+    {
+        width : 100%;
+    }
+
+    .hiddenXS
+    {
+        display: none;
+    }
+
+    .visibleXS
+    {
+        display: block;
+    }
+
+    #priceTable .colXS12
+    {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media(min-width:450px){
+
+    .visibleXS
+    {
+        display: none;
+    }
+
+    .hiddenXS
+    {
+        display: block;
+    }
+
+    #priceTable .col-xs-6
+    {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media(max-width:767px) and (min-width:450px){
+
+
+}
+
+@media(min-width:768px){
+
+}
+
+@media(min-width:992px){
+}
+
+@media(min-width:1200px){
+
+}
