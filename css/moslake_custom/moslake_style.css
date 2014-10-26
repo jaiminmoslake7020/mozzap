@@ -4,6 +4,54 @@
     Site's basic Colors and body     Site's basic Colors and body     Site's basic Colors and body     Site's basic Colors and body
     Site's basic Colors and body     Site's basic Colors and body     Site's basic Colors and body     Site's basic Colors and body
 */
+
+
+.loadingBar
+{
+  background-color: white;
+  position: fixed;
+  top:0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 10000;
+}
+
+.loadingBarText
+{
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 300px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #5577ff;
+  text-align: center;
+
+  -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Chrome, Safari, Opera */
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {color: #5577ff;}
+    20%  {color: #425dc8;}
+    50%  {color: #172346;}
+    80%  {color: #425dc8;}
+    100% {color: #5577ff;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {color: #5577ff;}
+    20%  {color: #425dc8;}
+    50%  {color: #172346;}
+    80%  {color: #425dc8;}
+    100% {color: #5577ff;}
+}
+
+
+
 body
 {
     position: relative;
@@ -20,7 +68,7 @@ body
 
 .bg-primary1
 {
-    color: #5577ff;
+    background-color: #5577ff;
 }
 
 .primary2
@@ -30,9 +78,171 @@ body
 
 .bg-primary2
 {
-    color: #4466aa;
+    background-color: #4466aa;
 }
 
+
+.primary3
+{
+    color: #ff725c;
+}
+
+.bg-primary3
+{
+    background-color: #ff725c;
+}
+
+.primary4
+{
+    color: #d35746;
+}
+
+.bg-primary4
+{
+    background-color: #d35746;
+}
+
+.primary5
+{
+    color: #30a9aa;
+}
+
+.bg-primary5
+{
+    background-color: #30a9aa;
+}
+
+.primary6
+{
+    color: #2c9596;
+}
+
+.bg-primary6
+{
+    background-color: #2c9596;
+}
+
+
+.primary7
+{
+    color: #64c678;
+}
+
+.bg-primary7
+{
+    background-color: #64c678;
+}
+
+.primary8
+{
+    color: #51a15e;
+}
+
+.bg-primary8
+{
+    background-color: #51a15e;
+}
+
+.primary9
+{
+    color: #ac85c6;
+}
+
+.bg-primary9
+{
+    background-color: #ac85c6;
+}
+
+.primary10
+{
+    color: #8e6da4;
+}
+
+.bg-primary10
+{
+    background-color: #8e6da4;
+}
+
+.primary11
+{
+    color: #dbdd50;
+}
+
+.bg-primary11
+{
+    background-color: #dbdd50;
+}
+
+.primary12
+{
+    color: #cacc4d;
+}
+
+.bg-primary12
+{
+    background-color: #cacc4d;
+}
+
+.primary13
+{
+    color: #dd6878;
+}
+
+.bg-primary13
+{
+    background-color: #dd6878;
+}
+
+.primary14
+{
+    color: #b95666;
+}
+
+.bg-primary14
+{
+    background-color: #b95666;
+}
+
+
+
+
+
+.textBoxOfSection
+{
+    color : #4466aa;
+    font-size : 40px ;
+    text-transform : uppercase ;
+    font-family : calibri;
+    text-align : center ;
+}
+
+.awesomeText div:before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    border-bottom: 1px solid #4466aa;
+    bottom: 2px;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: -webkit-transform 0.2s ease-in;
+    transition: transform: 0.2s ease-in;
+}
+
+.awesomeText div:hover:before
+{
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#sliderIndicator
+{
+    height: 1px;
+    background-color: #4466aa;
+}
 
 
 /*
@@ -46,7 +256,7 @@ body
     border-radius: 0px;
     background-color: #ffffff;
     color: #4466aa;
-    
+
     -webkit-transition: color 400ms;-moz-transition: color 400ms;-ms-transition: color 400ms;-o-transition: color 400ms;transition: color 400ms;
     -webkit-transition: background-color 600ms;-moz-transition: background-color 600ms;-ms-transition: background-color 600ms;-o-transition: background-color 600ms;transition: background-color 600ms;
 }
@@ -70,17 +280,16 @@ body
 {
     color: #ffffff;
     background-color: #4466aa;
+
+}
+
+.btnMakeFlat
+{
+    border-radius: 0px;
 }
 
 
 
-/*
-   Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss
-   Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss
-   Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss
-   Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss          Carousel Csss
-*/
-
 
 /*
    MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss          MosLake Modal Csss
@@ -98,6 +307,158 @@ body
 */
 
 
+#mozzapBar
+{
+    background: #ffffff;
+    background-color: #5577ff;
+
+    border-radius: 0px;
+    border-width: 0px ;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+
+    z-index: 1000;
+
+    -webkit-transition: background-color 350ms;-moz-transition: background-color 350ms;-ms-transition: background-color 350ms;-o-transition: background-color 350ms;transition: background-color 350ms;
+}
+
+#mozzapBar.hasSlider
+{
+    background-color: transparent;
+}
+
+
+#mozzapBar .navbar-brand
+{
+    padding: 25px 0px 25px 50px;
+    color: white;
+    font-weight: bold;
+    -webkit-transition: color 400ms;-moz-transition: color 400ms;-ms-transition: color 400ms;-o-transition: color 400ms;transition: color 400ms;
+    font-size: 50px;
+}
+
+#mozzapBar.hasSlider .navbar-brand
+{
+  color: #5577ff;
+}
+
+
+#mozzapBar .navbar-nav>li>a
+{
+    text-transform: uppercase;
+    background-color: #5577ff;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: background-color 600ms;-moz-transition: background-color 600ms;-ms-transition: background-color 600ms;-o-transition: background-color 600ms;transition: background-color 600ms;
+}
+
+#mozzapBar.hasSlider .navbar-nav>li>a
+{
+    background-color: transparent;
+    color: #5577ff;
+}
+
+
+#mozzapBar .navbar-nav>li>a:hover
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #4466aa ;
+    color: white;
+}
+
+#mozzapBar.hasSlider .navbar-nav>li>a:hover
+{
+    background-color: transparent;
+    color: #4466aa;
+}
+
+#mozzapBar .navbar-nav>li.active>a
+{
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #4466aa ;
+    -webkit-transition: background-color 600ms;-moz-transition: background-color 600ms;-ms-transition: background-color 600ms;-o-transition: background-color 600ms;transition: background-color 600ms;
+}
+
+#mozzapBar.hasSlider .navbar-nav>li>a.active
+{
+    background-color: transparent;
+    color: #4466aa;
+}
+
+#mozzapBar .navbar-nav>li.active>a:hover
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #4466aa;
+    color: white;
+}
+
+#mozzapBar.hasSlider .navbar-nav>li>a.active:hover
+{
+    background-color: transparent;
+    color: #4466aa;
+}
+
+#mozzapBar .navbar-nav>li.open>a
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #4466aa;
+    color: white;
+}
+
+#mozzapBar.hasSlider .navbar-nav>li.open>a
+{
+    background-color: transparent;
+    color: #4466aa;
+}
+
+
+#mozzapBar .navbar-nav>li.dropdown>ul.dropdown-menu
+{
+    padding: 0px;
+}
+
+#mozzapBar .navbar-nav>li.dropdown>ul.dropdown-menu>li>a
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #5577ff;
+    color: white;
+    -webkit-transition: background-color 600ms;-moz-transition: background-color 600ms;-ms-transition: background-color 600ms;-o-transition: background-color 600ms;transition: background-color 600ms;
+}
+
+#mozzapBar.hasSlider .navbar-nav>li.dropdown>ul.dropdown-menu>li>a
+{
+    background-color: transparent;
+    color: #5577ff;
+}
+
+#mozzapBar .navbar-nav>li.dropdown>ul.dropdown-menu>li>a:hover
+{
+    background-color: #4466aa;
+}
+
+#mozzapBar.hasSlider .navbar-nav>li.dropdown>ul.dropdown-menu>li>a:hover
+{
+    background-color: transparent;
+    color: #4466aa;
+}
+
+.upLift
+{
+    -webkit-transform-origin: 0px 0px 0px;
+    -webkit-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+    display: block;
+}
+
 
 /*
    Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss
@@ -106,8 +467,300 @@ body
    Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss          Carousel Section (First Section) Csss
 */
 
+.moslakeCarouselBackground
+{
+    background-color: white;
+}
 
 
+.moslakeCarousel
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.moslakeCarousel .carousel-control
+{
+ background: rgba(0,0,0,0);
+}
+
+.moslakeCarousel .carousel-indicators
+{
+   z-index: 200;
+}
+
+.moslakeCarousel .carousel-control {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    opacity: 1;
+
+    z-index: 200;
+
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    background-color: #5577ee;
+    -webkit-transition: background-color 500ms;-moz-transition: background-color 500ms;-ms-transition: background-color 500ms;-o-transition: background-color 500ms;transition: background-color 500ms;
+}
+
+.moslakeCarousel .carousel-control:hover
+{
+    background-color: #4466aa;
+}
+
+.moslakeCarousel .carousel-control.right {
+    position: absolute;
+    left: auto;
+    top: 50%;
+    right: 2%;
+    opacity: 1;
+}
+
+.moslakeCarousel .carousel-control .fa {
+    transform : rotate(360deg);
+    -webkit-transition: transform 500ms;-moz-transition: transform 500ms;-ms-transition: transform 500ms;-o-transition: transform 500ms;transition: transform 500ms;
+}
+
+.moslakeCarousel .carousel-control:hover .fa {
+    transform : rotate(0deg);
+}
+
+.moslakeCarousel .carousel-inner .item{
+    overflow: hidden;
+}
+
+
+
+.moslakeCarousel .carousel-inner .item .item1{
+    width: 100%;
+    height: 100%;
+}
+
+.moslakeCarousel .carousel-inner .item .item1 .item-container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.moslakeCarousel .carousel-inner .item .item1 .icon-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.moslakeCarousel .carousel-inner .item .item1 .icon-container .tagLine{
+position: absolute;
+top: 82%;
+width: 100%;
+text-align: center;
+font-size: 5vmax;
+z-index: 102;
+}
+
+.moslakeCarousel .carousel-inner .item .item1 .icon-container .tagLine.deactive{
+    -webkit-transform: rotateX(270deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1) translate3d(0px, 0px, 0px) skew(0deg, 0deg);
+    transform-origin: 0px 0px 0px;
+}
+
+.moslakeCarousel .carousel-inner .item .item1 .icon-container .faContainer-mobile
+{
+    position: absolute;
+    left:22%;
+    top:42%;
+    z-index: 100;
+    height: 100%;
+}
+
+.moslakeCarousel .carousel-inner .item .item1 .icon-container .faContainer-mobile img
+{
+    width: 50%;
+}
+
+.moslakeCarousel .carousel-inner .item .item1 .icon-container .faContainer-tablet
+{
+    position: absolute;
+    left: 31%;
+    top: 33%;
+    z-index: 99;
+}
+
+.moslakeCarousel .carousel-inner .item .item1 .icon-container .faContainer-tablet img
+{
+    width: 60%;
+}
+
+.moslakeCarousel .carousel-inner .item .item1 .icon-container .faContainer-desktop
+{
+    position: absolute;
+    left: 39%;
+    top: 14%;
+    z-index: 98;
+}
+
+.moslakeCarousel .carousel-inner .item .item1 .icon-container .faContainer-desktop img
+{
+    width: 90%;
+}
+
+
+
+
+.moslakeCarousel .carousel-inner .item .item2{
+    width: 100%;
+    height: 100%;
+}
+
+.moslakeCarousel .carousel-inner .item .item2 .item-container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.moslakeCarousel .carousel-inner .item .item2 .icon-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.moslakeCarousel .carousel-inner .item .item2 .icon-container .tagLine{
+    position: absolute;
+    top: 105%;
+    left: 10%;
+    width: 50%;
+    text-align: left;
+    /*font-size: 170%;*/
+    font-size: 2vmax;
+    z-index:101;
+}
+
+.moslakeCarousel .carousel-inner .item .item2 .icon-container .tagLine:nth-child(2){
+    top : 35% ;
+    /*font-size: 250%;*/
+    font-size: 3vmax;
+}
+
+.moslakeCarousel .carousel-inner .item .item2 .icon-container .tagLine:nth-child(3){
+    top : 45% ;
+}
+
+.moslakeCarousel .carousel-inner .item .item2 .icon-container .tagLine:nth-child(4){
+    top : 52% ;
+}
+
+.moslakeCarousel .carousel-inner .item .item2 .icon-container .tagLine:nth-child(5){
+    top : 59% ;
+}
+
+
+.moslakeCarousel .carousel-inner .item .item2 .icon-container .faContainer-user
+{
+    position: absolute;
+    left:50%;
+    top:40%;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    color: #4466aa;
+}
+
+.moslakeCarousel .carousel-inner .item .item2 .icon-container .faContainer-user .anotherContainer
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.moslakeCarousel .carousel-inner .item .item2 .icon-container .faContainer-user .anotherContainer .fa:nth-child(1)
+{
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    /*font-size: 1000%;*/
+    font-size: 9vmax;
+}
+
+.moslakeCarousel .carousel-inner .item .item2 .icon-container .faContainer-user .anotherContainer .fa:nth-child(2)
+{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    /*font-size: 1200%;*/
+    font-size: 10vmax;
+}
+
+.moslakeCarousel .carousel-inner .item .item2 .icon-container .faContainer-user .anotherContainer .fa:nth-child(3)
+{
+    position: absolute;
+    top: 0%;
+    left: 16%;
+    /*font-size: 1400%;*/
+    font-size: 11vmax;
+}
+
+.moslakeCarousel .carousel-inner .item .item2 .icon-container .faContainer-user .anotherContainer .fa:nth-child(4)
+{
+    position: absolute;
+    top: 0%;
+    left: 24%;
+    /*font-size: 1200%;*/
+    font-size: 10vmax;
+}
+
+.moslakeCarousel .carousel-inner .item .item2 .icon-container .faContainer-user .anotherContainer .fa:nth-child(5)
+{
+    position: absolute;
+    top: 0%;
+    left: 31%;
+    /*font-size: 1000%;*/
+    font-size: 9vmax;
+}
+
+.moslakeCarousel .carousel-inner .item .item3 .item-description
+{
+  padding-top: 10%;
+  /*font-size: 380%;*/
+  font-size: 5vmax;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.moslakeCarousel .carousel-inner .item .item3 .item-detail
+{
+    height: 50%;
+}
+
+.box30
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 2%;
+}
+
+.box30Height
+{
+    height: 110px;
+}
+
+.colorBox
+{
+    width: 230px;
+    height: 115px;
+    margin: auto;
+}
+
+.carousel-indicators li
+{
+  background-color: #5577ff;
+}
+
+.carousel-indicators li.active
+{
+    background-color: #4466aa;
+}
 
 /*
    About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss          About US (Second Section - We are) Csss
@@ -164,7 +817,7 @@ body
     top:-30px;
     left: -5px;
     z-index: 1;
-    
+
     -webkit-transition: height 500ms;-moz-transition: height 500ms;-ms-transition: height 500ms;-o-transition: height 500ms;transition: height 500ms;
     -webkit-transition: width 500ms;-moz-transition: width 500ms;-ms-transition: width 500ms;-o-transition: width 500ms;transition: width 500ms;
     -webkit-transition: border-radius 500ms;-moz-transition: border-radius 500ms;-ms-transition: border-radius 500ms;-o-transition: border-radius 500ms;transition: border-radius 500ms;
@@ -253,9 +906,8 @@ body
     background-color: #ffffff;
     position: relative;
     margin-bottom: 40px;
-    opacity: 0.1;
-    top : 200px;
-
+    opacity: 1;
+    top : 0px;
 }
 
 #ourHistory .item-service:hover
@@ -475,6 +1127,99 @@ body
    Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss
    Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss          Our PortFolio (5th Section) Csss
 */
+
+
+
+#portFolioContainer .itemParent
+{
+    height: 250px;
+    overflow: hidden;
+}
+
+#portFolioContainer .item
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: none;
+
+}
+
+#portFolioContainer .item img
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#portFolioContainer .item .item-illustrator
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(58, 62, 170, 0.50);
+    width: 100%;
+    height: 100%;
+    /*margin: 0%;*/
+    display: none;
+}
+
+#portFolioContainer .item img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#portFolioContainer .item .item-illustrator a
+{
+    font-size: 0px;
+    color: white;
+    margin: 25% 42%;
+    display: block;
+    cursor: pointer;
+}
+
+#portFolioContainer .item .item-illustrator .tooltip
+{
+ margin-top:18px;
+}
+
+.modalTitle
+{
+  font-size: 30px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.modalDescription
+{
+    font-size: 14px;
+    color: #181818;
+}
+
+#portFolioContainerModal .modal-header
+{
+    border-bottom-width : 0px;
+    text-align: right;
+    padding: 0px;
+}
+
+#portFolioContainerModal .modal-header .btn-group
+{
+  display: inline-block;
+}
+
+#portFolioContainerModal .modal-dialog
+{
+    width: 100%;
+    margin: 0px;
+}
+
+#portFolioContainerModal .modal-content
+{
+    border-radius: 0px;
+}
 
 
 /*
@@ -772,64 +1517,3 @@ body
    Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss
    Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss          Stay Connected (10th section) Csss
 */
-
-#examples-parallax {
-    padding-top: 200px;
-    height: 800px;
-    margin-bottom: -600px;
-    overflow: hidden;
-}
-
-
-#parallax-it {
-    padding: 0;
-    font-size: 80px;
-    position: relative;
-
-    height: 100%;
-    background-color: red;
-}
-
-#parallax-it-left {
-    position: relative;
-    font-size: 120px;
-    left: -160px;
-    color: #C5C3DE;
-    opacity: 0.5;
-    -moz-opacity: 0.5;
-    filter: alpha(opacity=5);
-    overflow: hidden;
-
-    height: 100%;
-
-    background-color: #000000;
-}
-
-
-#parallax-it-right {
-    position: relative;
-    font-size: 160px;
-    left: 80px;
-    color: #C5C3DE;
-    opacity: 0.25;
-    -moz-opacity: 0.25;
-    filter: alpha(opacity=2.5);
-    overflow: hidden;
-    width: 900px;
-
-    height: 100%;
-    background-color: aqua;
-}
-
-
-h2 {
-    font-size: 150px;
-    font-weight: normal;
-    margin: 0;
-    color: #FFB000;
-    padding: 60px;
-    text-shadow: 0 2px 1px #000;
-    font-family: 'Luckiest Guy',Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,Gadget,sans-serif;
-    text-transform: uppercase;
-}
-

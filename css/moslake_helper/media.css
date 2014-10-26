@@ -75,6 +75,12 @@
         margin-bottom: 30px;
     }
 
+    #mozzapBar .navbar-brand
+    {
+        padding: 10px 0px 10px 20px;
+        font-size: 30px;
+    }
+
 }
 
 @media(min-width:450px){
@@ -94,18 +100,37 @@
         margin-bottom: 30px;
     }
 
+    #mozzapBar .navbar-brand
+    {
+        padding: 10px 0px 10px 20px;
+        font-size: 30px;
+    }
 }
 
 @media(max-width:767px) and (min-width:450px){
 
+    #mozzapBar .navbar-brand
+    {
+        padding: 10px 0px 10px 20px;
+        font-size: 30px;
+    }
 
 }
 
 @media(min-width:768px){
-
+    #mozzapBar .navbar-brand
+    {
+        padding: 20px 0px 20px 30px;
+        font-size: 30px;
+    }
 }
 
 @media(min-width:992px){
+    #mozzapBar .navbar-brand
+    {
+        padding: 25px 0px 25px 50px;
+        font-size: 50px;
+    }
 }
 
 @media(min-width:1200px){

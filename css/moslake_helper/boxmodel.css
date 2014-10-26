@@ -46,3 +46,13 @@
 {
     cursor: pointer;
 }
+
+.fullHeight
+{
+    height: 100%;
+}
+
+.overFlowHidden
+{
+    overflow: hidden;
+}
