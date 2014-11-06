@@ -81,6 +81,15 @@
         font-size: 30px;
     }
 
+    #mozzapBar.hasSlider
+    {
+        background-color: white;
+    }
+
+    #serviceContainer .item
+    {
+        margin-bottom: 50px;
+    }
 }
 
 @media(min-width:450px){
@@ -105,6 +114,17 @@
         padding: 10px 0px 10px 20px;
         font-size: 30px;
     }
+
+    #mozzapBar.hasSlider
+    {
+        background-color: white;
+    }
+
+    #serviceContainer .item
+    {
+        margin-bottom: 50px;
+    }
+
 }
 
 @media(max-width:767px) and (min-width:450px){
@@ -115,6 +135,17 @@
         font-size: 30px;
     }
 
+    #mozzapBar.hasSlider
+    {
+        background-color: white;
+    }
+
+
+    #serviceContainer .item
+    {
+        margin-bottom: 50px;
+    }
+
 }
 
 @media(min-width:768px){
@@ -123,6 +154,14 @@
         padding: 20px 0px 20px 30px;
         font-size: 30px;
     }
+
+    #mozzapBar.hasSlider
+    {
+        background-color: white;
+    }
+
+
+
 }
 
 @media(min-width:992px){

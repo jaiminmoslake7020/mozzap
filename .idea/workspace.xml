@@ -23,16 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="378" column="39" selection-start="19219" selection-end="19219" vertical-scroll-proportion="-4.980392" vertical-offset="494" max-vertical-offset="8313">
-              <folding>
-                <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+            <state line="747" column="71" selection-start="39438" selection-end="39438" vertical-scroll-proportion="0.53754944" vertical-offset="12427" max-vertical-offset="15028">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,21 +35,26 @@
       <file leaf-file-name="moslake_style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/moslake_custom/moslake_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="557" column="12" selection-start="12333" selection-end="12333" vertical-scroll-proportion="-6.8" vertical-offset="9299" max-vertical-offset="25925">
+            <state line="1311" column="14" selection-start="30741" selection-end="30741" vertical-scroll-proportion="0.0" vertical-offset="21984" max-vertical-offset="26435">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="0" selection-start="2528" selection-end="2528" vertical-scroll-proportion="0.84489053" vertical-offset="1713" max-vertical-offset="13311">
-              <folding>
-                <element signature="e#9605#9679#0" expanded="false" />
-                <element signature="e#9748#10201#0" expanded="false" />
-                <element signature="e#24536#25417#0" expanded="false" />
-              </folding>
+            <state line="770" column="93" selection-start="23696" selection-end="23696" vertical-scroll-proportion="0.0" vertical-offset="13090" max-vertical-offset="15708">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="media.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/moslake_helper/media.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="146" column="5" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="3094">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,17 +83,15 @@
         <option value="$PROJECT_DIR$/css/moslake_helper/boxmodel.css" />
         <option value="$PROJECT_DIR$/css/moslake_helper/media.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/moslake_custom/moslake_style.css" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1366" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -210,7 +208,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../desktop/FirstTheme" />
+    <property name="last_opened_file_path" value="D:/XAMPP/htdocs/office/yakov" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
@@ -257,7 +255,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -265,7 +263,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21818182" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2446319" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -295,9 +293,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21212122" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -321,9 +319,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/moslake_helper/font.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="2" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3893">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="2" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3893" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajaxhtml/item2.html">
@@ -373,45 +369,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/moslake_helper/boxmodel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="15" selection-start="34100" selection-end="34114" vertical-scroll-proportion="0.830292" vertical-offset="463" max-vertical-offset="1071">
-          <folding />
-        </state>
+        <state line="54" column="15" selection-start="34100" selection-end="34114" vertical-scroll-proportion="0.830292" vertical-offset="463" max-vertical-offset="1071" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/moslake_helper/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2431">
+        <state line="146" column="5" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="3094">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/moslake_custom/moslake_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="557" column="12" selection-start="12333" selection-end="12333" vertical-scroll-proportion="-6.8" vertical-offset="9299" max-vertical-offset="25925">
+        <state line="1311" column="14" selection-start="30741" selection-end="30741" vertical-scroll-proportion="0.0" vertical-offset="21984" max-vertical-offset="26435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="770" column="93" selection-start="23696" selection-end="23696" vertical-scroll-proportion="0.0" vertical-offset="12002" max-vertical-offset="14977">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="378" column="39" selection-start="19219" selection-end="19219" vertical-scroll-proportion="-4.980392" vertical-offset="494" max-vertical-offset="8313">
-          <folding>
-            <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="0" selection-start="2528" selection-end="2528" vertical-scroll-proportion="0.84489053" vertical-offset="1713" max-vertical-offset="13311">
-          <folding>
-            <element signature="e#9605#9679#0" expanded="false" />
-            <element signature="e#9748#10201#0" expanded="false" />
-            <element signature="e#24536#25417#0" expanded="false" />
-          </folding>
+        <state line="747" column="71" selection-start="39438" selection-end="39438" vertical-scroll-proportion="0.53754944" vertical-offset="12427" max-vertical-offset="15028">
+          <folding />
         </state>
       </provider>
     </entry>

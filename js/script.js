@@ -38,13 +38,37 @@ $('#mozzapBar').find('ul.nav li a').click(function(e){
 
 
 
-$(document).keydown(function(event){
+var timer = 0 ;
+
+setInterval(function(){  timer++;  },1)
+
+
+var pressCountUp = 0;
+var pressCountDown = 0;
+$(document).keyup(function(event){
     var key = event.which;
+
+    if(timer < 1000 && pressCountUp > 3)
+    {
+        event.preventDefault();
+        timer = 0 ;
+        return;
+    }
+
+    if(timer < 1000 && pressCountDown > 3)
+    {
+        //alert("hi"+timer)
+        event.preventDefault();
+        timer = 0 ;
+        return;
+    }
+
     switch(key) {
         case 37:
             // Key left.
 
           //  alert("left");
+
 
             break;
         case 38:
@@ -52,12 +76,15 @@ $(document).keydown(function(event){
 
             //alert("up")
 
+
+
+
             if($('#mozzapBar').find('ul.nav li.active').prev('li:not(.dropdown)').length == 1)
             {
                 $('#mozzapBar').find('ul.nav li.active').prev('li').children('a').trigger('click')
             }
 
-
+            pressCountUp++;
 
             break;
         case 39:
@@ -69,11 +96,14 @@ $(document).keydown(function(event){
         case 40:
             // Key down.
 
+            // console.log(timer+"----------"+pressCountDown);
+
             if($('#mozzapBar').find('ul.nav li.active').next('li:not(.dropdown)').length == 1)
             {
                 $('#mozzapBar').find('ul.nav li.active').next('li').children('a').trigger('click')
             }
 
+            pressCountDown++;
             ///alert("donw")
 
             break;
@@ -109,7 +139,7 @@ $('.titleBoxOfSection').each(function(index,element){
             $html.html('');
         }
 
-        console.log();
+        // console.log();
 
         if(mySplittedText[i] == "-")
         {
@@ -138,14 +168,14 @@ animation1();
 
 $('#carousel-example-generic').on('slide.bs.carousel', function () {
     // do something…
-     console.log();
+     // console.log();
 
     var changingIndex = $(this).find('.item.active').index() ;
     setTimeout(function(){
 
             if(changingIndex == 0)
             {
-                console.log("executing...!!!!!!1");
+                // console.log("executing...!!!!!!1");
                 animation1Pre();
             }
             else if(changingIndex == 1)
@@ -164,7 +194,7 @@ $('#carousel-example-generic').on('slide.bs.carousel', function () {
 
 $('#carousel-example-generic').on('slid.bs.carousel', function () {
     // do something…
-    console.log($(this).find('.item.active').index());
+    // console.log($(this).find('.item.active').index());
 
 
         if($(this).find('.item.active').index() == 0)
@@ -295,7 +325,7 @@ $('li.dropdown a.dropdown-toggle').hover(function(){
 
     dropDownMenu.addClass('upLift');
 
-        //console.log("Added upLift")
+        //// console.log("Added upLift")
 
 
         TweenMax.to(dropDownMenu, 1, { css:{rotationX:0, rotationY:0, rotationZ: 0}, onComplete : function(){
@@ -311,17 +341,17 @@ function(){
     setTimeout(function(){
 
 
-      console.log(dropDownMenu);
+      // console.log(dropDownMenu);
       if(!dropDownMenu.hasClass('viewAble'))
       {
-          //console.log("step 1");
+          //// console.log("step 1");
 
           dropDownMenu.css("transform-origin","0px 0px 0px");
           TweenMax.to(dropDownMenu, 1, {css:{rotationX:90, rotationY:0, rotationZ: 0}, onComplete : function(){
 
               dropDownMenu.parents("li.dropdown").removeClass('open');
               dropDownMenu.removeClass('upLift');
-           //   console.log("hi hih hij ");
+           //   // console.log("hi hih hij ");
 
 
           } });
@@ -330,7 +360,7 @@ function(){
       }
       else
       {
-         // console.log("step 2");
+         // // console.log("step 2");
       }
 
 
@@ -350,7 +380,7 @@ $('li.dropdown ul.dropdown-menu').hover(function(){
 
         if(!dropDownMenu.hasClass('upLift'))
         {
-            console.log("step 3");
+            // console.log("step 3");
 
 
             dropDownMenu.css("transform-origin","0px 0px 0px");
@@ -363,7 +393,7 @@ $('li.dropdown ul.dropdown-menu').hover(function(){
         }
         else
         {
-           // console.log("step 4");
+           // // console.log("step 4");
         }
 
     },500)
@@ -402,7 +432,7 @@ $("a[data-toggle='popover']").on('shown.bs.popover', function () {
     // alert("The Popup has been shown");
 
     var it = $(this).next('.popover');
-  //  // console.log(it);
+  //  // // console.log(it);
     if(it.length >= 1)
     {
         TweenMax.to(it ,0.3, {css:{marginTop:12} });
@@ -428,7 +458,7 @@ $("a[data-toggle='popover']").on('shown.bs.popover', function () {
 $("a[data-toggle='popover']").on('hide.bs.popover', function () {
     // alert("The Popup has been shown");
     var it = $(this).next('.popover');
-    //// console.log(it);
+    //// // console.log(it);
     if(it.length >= 1)
     {
         TweenMax.to(it ,0.3, {css:{marginTop:30} });
@@ -440,6 +470,9 @@ $("a[data-toggle='popover']").on('hide.bs.popover', function () {
 /*  serviceContainer    serviceContainer    serviceContainer    serviceContainer    serviceContainer    serviceContainer  */
 /*  serviceContainer    serviceContainer    serviceContainer    serviceContainer    serviceContainer    serviceContainer  */
 /*  serviceContainer    serviceContainer    serviceContainer    serviceContainer    serviceContainer    serviceContainer  */
+
+$('#serviceContainer .item .item-illustrator').css('left',(($('#serviceContainer .item').width()-$('#serviceContainer .item .item-illustrator').width())/2)+"px");
+
 
 var newSplitText = [] ;
 
@@ -468,6 +501,31 @@ tl.insert( serviceTween,0 );
 var sceneNew = new ScrollScene({triggerElement: "#serviceContainer", duration: 0,  offset: -150})
     .setTween(tl)
     .addTo(controllerMagic);
+
+
+$('#serviceContainer .item').hover(function(e){
+
+    element = $(this).find('.item-illustrator');
+    thisWidth = (($(this).width()-70)/2)+"px" ;
+    fa = $(this).find('.item-illustrator .fa');
+
+   // TweenMax.to(element, 1, {css:{width:"70px", height : "70px" , top : "-35px", left : thisWidth  }});
+
+    TweenMax.to(element, 0.5, {css:{ rotationZ: "45"   }});
+    TweenMax.to(fa, 0.5, {css:{ rotationZ: "-45"   }});
+
+
+},function(e){
+
+    element = $(this).find('.item-illustrator');
+    thisWidth = (($(this).width()-50)/2)+"px" ;
+    fa = $(this).find('.item-illustrator .fa');
+//    TweenMax.to(element, 1, {css:{width:"50px", height : "50px" , top : "-25px", left : thisWidth  }});
+
+    TweenMax.to(element, 0.5, {css:{ rotationZ: "0"   }});
+    TweenMax.to(fa, 0.5, {css:{ rotationZ: "0"   }});
+
+});
 
 
 /* Portfolio  Portfolio Portfolio  Portfolio  Portfolio  Portfolio  Portfolio  Portfolio  Portfolio  Portfolio  Portfolio  Portfolio */
@@ -620,13 +678,13 @@ $('body').on('click','.btnNavigate',function(e){
             if(btnElement.hasClass('left'))
             {
                 var nowItem = $('#portFolioContainerModal .modal-header .btn-group .btnNavigate.left').attr("data-now-item");
-                // console.log("hiw how part 1"+ nowItem);
+                // // console.log("hiw how part 1"+ nowItem);
                 nowItem = nowItem == 0 ? 7 : parseInt(nowItem)-1 ;
             }
             else
             {
                 var nowItem = $('#portFolioContainerModal .modal-header .btn-group .btnNavigate.left').attr("data-now-item");
-                // console.log("hiw how part 2"+nowItem);
+                // // console.log("hiw how part 2"+nowItem);
                 nowItem = nowItem == 7 ? 1 : parseInt(nowItem)+1 ;
             }
 
@@ -709,6 +767,10 @@ $('#ourHistory .item-service.right').mouseenter(function(){
 /* priceTable  priceTable  priceTable  priceTable  priceTable  priceTable  priceTable  priceTable  priceTable */
 /* priceTable  priceTable  priceTable  priceTable  priceTable  priceTable  priceTable  priceTable  priceTable */
 
+
+$('#priceTable .item-illustrator').css({'height' : $('#priceTable .item-illustrator').width()+"px" , "top" : (-$('#priceTable .item-illustrator').width()/2)+"px"  });
+
+
 var newSplitText = [] ;
 
 $('#priceTable .awesomeText').find('div').each(function(index,element){
@@ -778,12 +840,12 @@ $('#ourTeam .item').hover(function(){
 
     if($(window).width() < 768)
     {
-        // console.log("Yes");
+        // // console.log("Yes");
         TweenMax.to(it ,0.5, {css:{marginBottom: marginB } });
     }
     else
     {
-        // console.log("Yes");
+        // // console.log("Yes");
         TweenMax.to(it ,0.5, {css:{marginBottom: 0 } });
     }
 
@@ -813,6 +875,32 @@ $('#ourTeam .item').hover(function(){
         TweenMax.to(it.find('.item-btn-container') ,0.5, {css:{bottom: 0} });
     }
     });
+
+});
+
+
+/* Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials */
+/* Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials */
+/* Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials */
+/* Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials */
+/* Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials  Testimonials */
+
+TweenMax.to("#carousel2 .item" ,0, {css:{opacity:0,top:50}});
+
+$('#carousel2').on('slid.bs.carousel', function () {
+    // do something…
+    // console.log($(this).find('.item.active').index());
+
+    var itemActive = $(this).find('.item.active');
+
+    TweenMax.to(itemActive ,0.5, {css:{opacity:1,top:0}});
+    console.log(itemActive.find('b').html()+"sliding done");
+
+    setTimeout(function(){
+
+        TweenMax.to(itemActive ,0.5, {css:{opacity:0,top:50}});
+
+    }, 5000);
 
 });
 
